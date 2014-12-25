@@ -16,6 +16,7 @@ import PIL.Image as Image
 from logistic_sgd import LogisticRegression, load_data
 
 
+
 def scale_to_unit_interval(ndar, eps=1e-8):
     ndar = ndar.copy()
     ndar -= ndar.min()
